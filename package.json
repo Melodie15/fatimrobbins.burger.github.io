@@ -18,9 +18,19 @@
   },
   "homepage": "https://github.com/Melodie15/fatimrobbins.burger.github.io#readme",
   "dependencies": {
+    "config.json": "0.0.4",
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4"
+  },
+  "development": {
+    "username": "zuv7600ljea3h8o7",
+    "password":"t9f3njtrhdtak78z",
+    "database": "kui97431whpl7b2u",
+    "host": "z8dl7f9kwf2g82re.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+
   }
+
 }
