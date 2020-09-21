@@ -20,3 +20,10 @@ h1 {
     margin-right: auto;
     width: 15%;
   }
+
+  p {
+      background-color: white;
+      width: 15%;
+      padding: 10px;
+      
+  }
