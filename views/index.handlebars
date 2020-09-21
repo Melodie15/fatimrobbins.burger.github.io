@@ -1,21 +1,25 @@
 <div class="container">
 
   <div>
-    <img src="/public/assets/images/burgerimage.jpg" alt="Image of a burger">
+    <img src="/assets/images/burgerimage.jpg" alt="Image of a burger">
   </div>
 
 
-
-
+<div>
 <ul>
   {{#each burgers}}
     <li>
       <p>Type: {{burger_name}}</p>
       <p>devoured: {{devoured}}</p>
+      		{{#if devoured}}
+          {{!-- condition to bring this li to the right --}}
+
+ {{else}} <button class="devoured" data-id="{{id}}">
+        Devour it!
+ </button>{{/if}}
+
     </li>
   {{/each}}
 </ul>
-
-</div>
 
 
